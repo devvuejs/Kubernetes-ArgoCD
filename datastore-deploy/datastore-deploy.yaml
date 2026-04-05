@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
         - name: mywebapp
-          image: devdeocker/datastore:v4.0
+          image: devdeocker/datastore:deva
   replicas: 3
   selector:
     matchLabels:
